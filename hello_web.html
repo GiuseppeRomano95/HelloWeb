@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lange="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #a2f344;
+            font-size: 2em;
+        }
+        p{
+            color: blue;
+            font-size: 0.8em;
+        }
+        .fundamental{
+            color:pink;
+        }
+        #pap{
+            color:brown;
+        }
+        h2{
+            color: blue;
+        }
+        h2.c1{
+             color: pink;
+        }
+        #myh2{
+            color:white;
+        }
+        div {
+             width: 300px;
+             height: 300px;
+             background-color: grey;
+             padding: 10px;
+             border: 5px solid black;
+             margin: 5px;
+             box-sizing: border-box;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Hello web!</title>
+</head>
+<body>
+    <h2 id="myh2" class="c1">ciaosonounh2</h2>
+    <h2 style="color:yellow">ciaobello</h2>
+<p>Buongiorno mondo</p>
+<div class="myclass">
+    <ul>
+        <li>pippo</li>
+        <li id="pap">paperino</li>
+        </li>pluto</li>
+    </ul>
+    <p>Lorem, ipsum dolor <span id=myspan class="fundamental">sit amet</span></p>
+</div>
+<section>
+    <form method="get" action="nonesisto.html">
+    <label for="x">
+        x:
+    </label>
+    <input type="text" id="x" name="x">
+    <br>
+    <label for="y">
+        y:
+    </label>
+    <input type="number" id="y" name="y">
+    <br>
+    <input type="submit"  value="esegui" id="submit">
+    <span id="result"></span>
+    </form>
+    <table id="table">
+        <thead>
+            <tr>
+            <th>nome</th>
+            <th>cognome</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <tr>
+            <td>Ciccio</td>
+            <td>Pasticcio</td>
+            </tr>
+            <tr>
+            <td>Paolino</td>
+            <td>Paperino</td>
+            </tr> -->
+        </tbody>
+    </table><br/>
+<p>Clicca il bottone in basso per caricare i dati nella tabella</p>
+<button onclick="aggiungiRigaTabella('table')">CARICA DATI</button>
+</section>
+<script src = "esempi.js"></script>
+</body>
+</html>
